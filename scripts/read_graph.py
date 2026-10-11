@@ -25,4 +25,4 @@ plt.grid(True)
 plt.show()
 
 plt.tight_layout()
-plt.savefig("val_cer_plot.png", dpi=300)
+plt.savefig("figures/conformer_val_cer.png", dpi=300)

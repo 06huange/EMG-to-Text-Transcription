@@ -34,5 +34,5 @@ plt.xlim(0, 8000)
 plt.ylim(0, 70)
 
 plt.tight_layout()
-plt.savefig("val_cer_comparison6.png", dpi=300)
+plt.savefig("figures/conformer_vs_tds_val_cer.png", dpi=300)
 plt.show()
