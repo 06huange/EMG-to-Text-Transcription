@@ -1,8 +1,8 @@
 # EMG-to-Text Neural Transcription – Keystroke Decoding from Surface EMG
 
-Project Members: Kuo Peng Huang 206629395, Gyungmin Roh 706626139, Alexander Trinh 906631470
+Project Members: Kuo Peng Huang, Gyungmin Roh, Alexander Trinh
 
-This course project is built upon the emg2qwerty work from Meta. The first section of this README provides some guidance for working with the repo and contains a running list of FAQs. **Note that the rest of the README is from the original repo and we encourage you to take a look at their work.**
+We decode typed keystrokes directly from wrist surface EMG signals, comparing CNN, LSTM, CNN-LSTM, Transformer, and Conformer (CNN + self-attention) architectures trained with CTC loss on Meta's emg2qwerty dataset. The Conformer performed best, reaching a 13.62% test character error rate (CER), a 43.6% relative improvement over the baseline TDS convolutional model. Further experiments showed that accuracy depends heavily on the number of EMG channels and the sampling rate, while moderate data augmentation helped only slightly. This course project is built upon the emg2qwerty work from Meta. The first section of this README provides some guidance for working with the repo and contains a running list of FAQs. **Note that the rest of the README is from the original repo and we encourage you to take a look at their work.**
 
 📄 **Final paper:** [Predicting Keystrokes from Surface Electromyography Signals](paper/Keystroke_Decoding_from_Surface_EMG.pdf)
 
